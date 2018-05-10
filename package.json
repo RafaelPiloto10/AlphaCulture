@@ -1,0 +1,27 @@
+{
+  "name": "alphaculture",
+  "version": "1.0.0",
+  "description": "High School Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "Echo No Errors",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelPiloto10/AlphaCulture.git"
+  },
+  "keywords": [
+    "Alpha",
+    "Culture"
+  ],
+  "author": "Rafael Piloto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelPiloto10/AlphaCulture/issues"
+  },
+  "homepage": "https://github.com/RafaelPiloto10/AlphaCulture#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
