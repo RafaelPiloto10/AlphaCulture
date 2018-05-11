@@ -51,9 +51,16 @@
         </nav>
     </div>
 
-    <audio autoplay loop>
-        <source src="../sound-src/MorseCodeSong.mp3">
-    </audio>
+    <div id="song-container">
+        <audio autoplay controls loop id="song">
+            <source src="../sound-src/MorseCodeSong.mp3">
+        </audio>
+    </div>
+
+    <script>
+        let song = document.getElementById("song")
+        song.volume = .3
+    </script>
 
 </body>
 
