@@ -21,7 +21,7 @@ body{
 
 .nav-wrapper h1, .nav-wrapper ul li{
     display: inline;
-    padding-right: 30px;
+    padding-right: 25px;
     line-height:50px;
     color: rgb(63, 63, 63);
     font-variant:small-caps;
