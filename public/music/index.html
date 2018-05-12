@@ -7,6 +7,23 @@
     <title>Alpha Culture | Music</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <style>
+        button {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background-color: #646464;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,15 +68,32 @@
         </nav>
     </div>
 
-    <div id="song-container">
-        <audio autoplay controls loop id="song">
-            <source src="../sound-src/MorseCodeSong.mp3">
-        </audio>
+    <img src="../img-src/music.jpg" alt="Morse Code chart" style="width: 100%;margin: 45px 0 0 0;">
+
+    <div style="text-align: center;">
+        <h1>
+            Music
+        </h1>
+        <p id="Page-Explination" style="margin-bottom: 25px;">
+            Just like our language, music of all genres is available morse in code. 
+            There are no restrictions on what music people can listen to, however the culturally accepted form of music is Alphanian Music (music in morse code).
+        </p>
+
+        <button id="Play-Song" style="margin-bottom: 100px;">Listen</button>
+
     </div>
 
     <script>
-        let song = document.getElementById("song")
+        let song = new Audio("../sound-src/MorseCodeSong.mp3")
+        let b = document.getElementById("Play-Song")
         song.volume = .3
+        b.addEventListener("click", ()=>{
+            if(song.paused){
+                song.play()
+            }else{
+                song.pause()
+            }
+        })
     </script>
 
 </body>

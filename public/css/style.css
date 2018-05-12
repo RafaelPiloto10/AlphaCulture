@@ -64,8 +64,8 @@ body{
 
 #song {
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 40%;
+    left:53%;
     transform: translate(-50%, -50%);
     -webkit-transition:all 0.5s linear;
     -moz-transition:all 0.5s linear;
@@ -77,4 +77,11 @@ body{
     -moz-border-radius:7px 7px 7px 7px;
     -webkit-border-radius:7px 7px 7px 7px;
     border-radius:7px 7px 7px 7px;
+}
+
+#Page-Explination{
+    width: 1000px; 
+    margin: 0 auto;
+    line-height: 25px;
+    margin-bottom: 75px;
 }
