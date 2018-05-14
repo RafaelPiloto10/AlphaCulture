@@ -1,3 +1,35 @@
 p{
     text-justify: distribute;
 }
+#compare {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+#compare td, #compare th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#compare th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+#compare tr:nth-child(even){background-color: #f2f2f2;}
+
+#compare tr:hover {background-color: #ddd;}
+
+#compare th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: tan;
+    color: white;
+}
+
+#compare td {
+    text-align: center;
+}
