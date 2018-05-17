@@ -16,12 +16,12 @@ body{
 }
 
 .nav-wrapper h1{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .nav-wrapper h1, .nav-wrapper ul li{
     display: inline;
-    padding-right: 19px;
+    padding-right: 10px;
     line-height:50px;
     color: rgb(63, 63, 63);
     font-variant:small-caps;
@@ -32,7 +32,7 @@ body{
     text-decoration: none;
     color: rgb(92, 92, 92);
     font-variant:small-caps;
-    font-size: 20px;
+    font-size: 15px;;
     font-weight: bold;
 }
 
